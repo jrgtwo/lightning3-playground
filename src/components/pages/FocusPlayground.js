@@ -1,5 +1,5 @@
 import Blits from '@lightningjs/blits'
-import Slide from '../components/Slide'
+import Slide from '../Slide'
 export default Blits.Component('Secondary', {
   template: `
     <Element w="1920" h="1080" color="#1e293b">

@@ -1,7 +1,7 @@
 import Blits from '@lightningjs/blits'
 import Menu from './components/Menu'
 import Page1 from './components/pages/Page1'
-import Home from './pages/Home'
+import Home from './components/pages/Home'
 import { ROUTES } from './constants/routes'
 
 export default Blits.Application({
