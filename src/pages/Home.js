@@ -8,7 +8,7 @@ export default Blits.Component('Home', {
   },
   input: {
     right(e) {
-      window.location.hash = 'focusPlayground'
+      this.$router.to('focusPlayground')
     },
   },
   state() {

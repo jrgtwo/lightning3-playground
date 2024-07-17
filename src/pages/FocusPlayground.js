@@ -22,9 +22,7 @@ export default Blits.Component('Secondary', {
   },
   input: {
     left(e) {
-      // Couldn't find any built in Route Methods
-      // Need to dive deeper into the docs
-      window.location.hash = ''
+      this.$router.to('')
     },
     down() {
       if (this.index + 1 < this.maxSlides) {
