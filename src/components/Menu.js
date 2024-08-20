@@ -22,6 +22,7 @@ export default Blits.Component('Menu', {
     },
     enter() {
       this.parent.$router.to(this.menuItems[this.focusedItem][1])
+
     }
   },
   hooks: {
@@ -29,6 +30,15 @@ export default Blits.Component('Menu', {
       const currRoute = window.location.hash.replace('#','')
       this.focusedItem = this.menuItems.findIndex((route) => route[1] === currRoute)
     },
+    ready() {
+      console.log('menu ready')
+    },
+    focus() {
+      console.log('currently focused on menu')
+    },
+    unfocus() { 
+      console.log('not focused on menu')
+    }
   },
   props: [
     'menuItems'

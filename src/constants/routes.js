@@ -10,8 +10,8 @@ import Page5 from "../components/pages/Page5"
 export const ROUTES = [
   ['home', '', Home], 
   ['page 1', 'page1', Page1],
-  ['page 2', 'page2', Page2],
-  ['page 3', 'page3', Page3],
-  ['page 4', 'page4', Page4],
-  ['page 5', 'page5', Page5],
+  // ['page 2', 'page2', Page2],
+  // ['page 3', 'page3', Page3],
+  // ['page 4', 'page4', Page4],
+  // ['page 5', 'page5', Page5],
 ]
